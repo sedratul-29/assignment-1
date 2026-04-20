@@ -1,36 +1,37 @@
 /* Shared Style */
 
-.open-sans-font{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Main Style */
 
-header{
-    background-color:#FFFFFF;
+header {
+    background-color: #FFFFFF;
     padding: 0px 120px;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     max-width: 139px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
@@ -38,23 +39,108 @@ header nav ul{
     gap: 32px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
-    color:#000000;
+    color: #000000;
     font-size: 16px;
     font-weight: 500;
     line-height: 152%;
 }
 
-.btn{
+.btn {
     max-width: 164px;
     border: none;
     border-radius: 4px;
-    padding: 12.5px 16px ;
+    padding: 12.5px 16px;
     color: #FFFFFF;
-    background-color:#469165;
+    background-color: #469165;
     font-size: 16px;
     font-weight: 600;
     line-height: 100%;
+    cursor: pointer;
+}
+
+.Hero {
+    padding: 115.5px 0px 179.5px;
+    background-image: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    height: 674px;
+    background-position: center;
+}
+
+.Hero-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Hero-content .button {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #30B868;
+    color: #469165;
+    padding: 8px 12px 8px 34px;
+    border: none;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+
+.Hero-content h1 {
+    max-width: 770px;
+    margin: 0 auto;
+    /* text-align: center; */
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 84px;
+    opacity: 90%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    height: 168px;
+}
+
+.Hero-content h1 span {
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 84px;
+    opacity: 90%;
+    color: #30B868;
+    /* margin-bottom: 16px; */
+}
+
+.Hero-content p {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.Hero-button .primary-btn {
+    max-width: 251px;
+    padding: 16.5px 46px 16.5px 16px;
+    font-weight: 600px;
+    line-height: 100%;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.Hero-button .secondary-btn{
+    max-width: 198px;
+    padding: 16.5px 16px 16.5px 46px;
+    font-weight: 600px;
+    line-height: 100%;
+    font-size: 16px;
+    color: #801717;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
