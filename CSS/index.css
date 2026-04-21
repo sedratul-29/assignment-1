@@ -41,7 +41,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color:#000000;
     font-size: 16px;
     font-weight: 500;
     line-height: 152%;
@@ -68,8 +68,7 @@ header nav ul li a {
     background-position: center;
 }
 
-.Hero-container,
-.card-section .card-container {
+.Hero-container,.card-section .card-container {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -198,7 +197,6 @@ header nav ul li a {
     line-height: 20px;
     color: #627382;
     margin-bottom: 21.5px;
-    */
 }
 
 .brain {
