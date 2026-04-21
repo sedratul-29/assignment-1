@@ -198,3 +198,74 @@ header nav ul li a {
     color:#627382;
     margin-bottom: 21.5px; */
 }
+
+.brain{
+    padding: 120px 120px;
+}
+
+.brain .brain-container{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+}
+
+.brain .brain-container .brain-image{
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.brain-content{
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+.brain-content .b{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 20px;
+    color:#469165;
+    margin-bottom: 16px;
+}
+
+.brain-content h1{
+    color: #001931;
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+
+.brain-content .c{
+    color: #627382;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+.brain-content .a img,.brain-content .d img{
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.brain-content .a{
+    color: #001931;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.brain-content .d{
+    color: #001931;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
