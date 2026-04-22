@@ -322,3 +322,65 @@ header nav ul li a {
     font-size: 16px;
     line-height: 20px;
 }
+
+footer{
+    padding: 120px 0px 30px ;
+    background-color: #001931;
+}
+
+.link{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-logo img{
+    max-width: 139px;
+    margin-bottom: 4px;
+}
+
+.links{
+    max-width: 220px;
+    padding-right: 107px;
+}
+.links p{
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.links .icons{
+    max-width: 92px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.links .a,.links .b,.links .c{
+    color: white;
+}
+
+.copyright{
+    width: 85%;
+    max-width: 1360px;
+    margin: 80px auto 0px;
+    text-align: center;
+}
+
+.copyright hr{
+    color: #E5E7EB;
+    opacity: 20%;
+    margin-bottom: 30px;
+}
+
+.copyright p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}  
